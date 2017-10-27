@@ -4,7 +4,7 @@ int mnoz(int a, int b){
 	return a  * b;
 }
 int poteguj(int a){
-	printf("wynik potega: %i\n", a^2);
+	printf("wynik potega: %i", a^2);
 	return a ^ 2;
 }
 int dodaj(int a, int b){
